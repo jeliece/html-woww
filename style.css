@@ -1,0 +1,202 @@
+nav{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    /* justify-content: flex-end;
+} */
+}
+.logo{
+    margin-right: 30px;
+}
+/* body{
+    background-color: #666;
+} */
+.links{
+    display: flex;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    /* inside the box */
+    padding: 10px 20px;
+    margin: 5px;
+}
+.active{
+    background-color: black;
+    border-radius: 5px;
+}
+.links a:hover{
+    background-color: green;
+}
+#home{
+    background-color:black;
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+.hero p{
+    color: white;
+    margin-bottom: 25px;
+}
+.hero::selection{
+    background-color: yellow;
+    color: black;
+}
+.button{
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: green;
+    color: black;
+}
+.section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+.section h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.section p{
+    color: #666;
+    margin-bottom: 30px;
+}
+.about-text{
+    text-align: justify;
+}
+.about-text p{
+    margin-bottom: 20px;
+}
+.about-image .card{
+    padding: 10px 20px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.woww{
+     display: grid;
+   gap: 20px;
+   grid-template-columns:  1fr 1fr 1fr;
+}
+.cards{
+    display: grid;
+   gap: 20px;
+   grid-template-columns:  1fr 1fr 1fr;
+   /* grid-template-columns: 200px 200px 200px; pwede sad nato gamiton ni */
+}
+.card{
+    flex: 1;
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+.card-image{
+    height: 180px;
+    background-color:#eee;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    margin-bottom: 15px;
+    overflow: hidden;
+    /* prevent nanubra na image */
+}
+.card-img-element{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#welcome{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 70px 10px;
+    text-align: center;
+}
+.welcome-text, .welcome-image{
+    flex: 1;
+}
+/* .welcome-image{
+    flex: 1;
+} */
+ /* p, h2{
+    color:  red;
+ } para ni sya matipo basta same lang*/ 
+   footer{
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+ }
+ .about-image{
+    display: flex;
+    justify-content: center;
+}
+.about-image .card{
+    padding: 10px 20px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.cards{
+    display: grid;
+   gap: 20px;
+   grid-template-columns:  1fr 1fr 1fr;
+   /* grid-template-columns: 200px 200px 200px; pwede sad nato gamiton ni */
+}
+.card{
+    flex: 1;
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+.card-image{
+    height: 180px;
+    background-color:#eee;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    margin-bottom: 15px;
+    overflow: hidden;
+    /* prevent nanubra na image */
+}
+.card-img-element{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.featured{
+    text-align: center;
+    padding: 70px 10%;
+    background-color: gray;
+}
+.featured-card{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.featured-card img{
+    width: 400px;
+    border-radius: 10px;
+}
